@@ -1,0 +1,25 @@
+{
+  "name": "KFRFuzzyDateTranslator",
+  "version": "0.1.0",
+  "summary": "A short description of KFRFuzzyDateTranslator.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/KFRFuzzyDateTranslator",
+  "license": "MIT",
+  "authors": {
+    "kiaraRobles": "kiara.robles@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/KFRFuzzyDateTranslator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "KFRFuzzyDateTranslator": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

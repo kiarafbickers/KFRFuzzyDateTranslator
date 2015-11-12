@@ -34,24 +34,19 @@ The string "next Monday" returns the NSDate object of the next Monday, relative 
 ## Several ways to use the class:
 1. Initialize an instance of the KFRFuzzyDateTranslator class and a NSString object. Call the "dateFromString:" method on the string, then catch the return in a type id object. (This typically returns a NSDate object. Unless the strings input is invalid, in which case it returns a string error message). The default initializer translates from the current date and time zone. 
 
-
-<pre><code>KFRFuzzyDateTranslator instance = [[KFRFuzzyDateTranslator alloc] init];
-NSString *string = @"I'll do the thing tomorrow!";
-id date = [instance dateFromString:string];</code></pre>
-
+        KFRFuzzyDateTranslator instance = [[KFRFuzzyDateTranslator alloc] init];
+        NSString *string = @"I'll do the thing tomorrow!";
+        id date = [instance dateFromString:string];
 
 2. Initialize an instance of the KFRFuzzyDateTranslator class with a string property. Call the "dateFromString:" method on the instance string property. Then catch the return in a type id object.
 
-
-<pre><code>KFRFuzzyDateTranslator *instance = [[KFRFuzzyDateTranslator alloc] initWithString:@"I did it last week!"];
-id date = [instance dateFromString:instance.string];</code></pre>
+        KFRFuzzyDateTranslator *instance = [[KFRFuzzyDateTranslator alloc] initWithString:@"I did it last week!"];
+        id date = [instance dateFromString:instance.string];
 
 3. Initialize an instance of the KFRFuzzyDateTranslator class with a relative start date. Call the "dateFromString:" method on the input string, then catch the return in a type id object. This init method is intended primarily for testing purposes.
 
-
-<pre><code>KFRFuzzyDateTranslator *instance = [[KFRFuzzyDateTranslator alloc] initWithRelevantDate:@"01-JAN-70"];
-id date = [instance dateFromString:instance.string];</code></pre>
-
+        KFRFuzzyDateTranslator *instance = [[KFRFuzzyDateTranslator alloc] initWithRelevantDate:@"01-JAN-70"];
+        id date = [instance dateFromString:instance.string];
 
 ## Possible future improvements
 

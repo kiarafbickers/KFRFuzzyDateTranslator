@@ -13,6 +13,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		E9335B941BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = E9335B931BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.m */; settings = {ASSET_TAGS = (); }; };
+		E9335B961BF3F9AB002DD9C6 /* KFRFuzzyDateTranslatorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = E9335B951BF3F9AB002DD9C6 /* KFRFuzzyDateTranslatorSpec.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		79B43B38D6C2322D343FE9E4 /* Pods_KFRFuzzyDateTranslator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KFRFuzzyDateTranslator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D627663F53E7F8E4558EED76 /* Pods-KFRFuzzyDateTranslator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFRFuzzyDateTranslator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KFRFuzzyDateTranslator_Tests/Pods-KFRFuzzyDateTranslator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0301F38D98673DA4370917F /* Pods-KFRFuzzyDateTranslator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KFRFuzzyDateTranslator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KFRFuzzyDateTranslator_Tests/Pods-KFRFuzzyDateTranslator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9335B921BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFRFuzzyDateTranslator.h; sourceTree = "<group>"; };
+		E9335B931BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFRFuzzyDateTranslator.m; sourceTree = "<group>"; };
+		E9335B951BF3F9AB002DD9C6 /* KFRFuzzyDateTranslatorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFRFuzzyDateTranslatorSpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				E9335B921BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.h */,
+				E9335B931BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -83,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
+				E9335B951BF3F9AB002DD9C6 /* KFRFuzzyDateTranslatorSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -237,7 +245,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9335B941BF3F93D002DD9C6 /* KFRFuzzyDateTranslator.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				E9335B961BF3F9AB002DD9C6 /* KFRFuzzyDateTranslatorSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -67,7 +67,7 @@ pod "KFRFuzzyDateTranslator"
 
 ## Author
 
-kiaraRobles, kiara.robles@gmail.com
+Kiara Robles, kiara.robles@gmail.com
 
 ## License
 

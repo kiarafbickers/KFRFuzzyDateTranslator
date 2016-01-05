@@ -13,7 +13,7 @@ Are you tired of the date spinner thingy? Well, I am!
 <center>![Screenshot](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/UIKitUICatalog/Art/uidatepicker_intro_2x.png)</center>
 
 This pod was developed to convert a NSString into a NSDate object so you dont have to use that date spinner anymore!
-Yay.
+For flexibility, the API focuses completely on the model layer and makes no attempt to offer a UI solution.
 
 Developed and tested in Xcode 7.
 
